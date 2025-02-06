@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <button onclick="myFunction()">Test</button>
+    <script>
+      function myFunction() {
+        var str = "Hello";
+        var res = new RegExp("catch me");
+        var result = res.test(str);
+        document.getElementById("hi").innerHTML = result;
+      }
+    </script>
+  </body>
+</html>

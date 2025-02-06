@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="hi"></p>
+<script>
+var month;
+switch(new Date().getDay()) {
+  case 0:
+  month = "Jan";
+    break;
+  case 1:
+  month = "Feb";
+    break;
+  case 2:
+  month = "March";
+    break;
+  case 3:
+  month = "April";
+    break;
+  case 4:
+  month = "May";
+    break;
+  case 5:
+  month = "June";
+    break;
+  case  6:
+  month = "July";
+}
+document.getElementById("hi").innerHTML = "This is " + month;
+</script>
+
+</body>
+</html>
